@@ -2,32 +2,32 @@
 
 @font-face {
     font-family: sunValley;
-    src: url(Sun\ Valley\ -\ Demo.ttf);
+    src: url(homePage/homeFonts/Sun\ Valley\ -\ Demo.ttf);
 }
 
 @font-face {
     font-family: lemonMilk;
-    src: url(LEMONMILK-Bold.otf);
+    src: url(homePage/homeFonts/LEMONMILK-Bold.otf);
 }
 
 @font-face {
     font-family: happyCamper;
-    src: url(Happy-Camper-Regular.ttf);
+    src: url(homePage/homeFonts/Happy-Camper-Regular.ttf);
 }
 
 @font-face {
     font-family: sunriseInternational;
-    src: url(Sunrise\ International\ Demo.otf);
+    src: url(homePage/homeFonts/Sunrise\ International\ Demo.otf);
 }
 
 @font-face {
     font-family: bellerose;
-    src: url(Bellerose.ttf);
+    src: url(homePage/homeFonts/Bellerose.ttf);
 }
 
 @font-face {
     font-family: caveat;
-    src: url(Caveat-VariableFont_wght.ttf);
+    src: url(homePage/homeFonts/Caveat-VariableFont_wght.ttf);
 }
 
 
@@ -37,20 +37,12 @@
 body {
     background-size: cover;
     background-color: #fff5f7; /* fallback */
-    background-image: linear-gradient(#fff5f7, rgb(255, 213, 235));
+    background-image: linear-gradient(#fff5f7, rgb(249, 215, 233));
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0px;
     overflow-x: clip;
 }
-
-hr.rounded {
-    border-top: 8px solid #d487f6;
-    border-radius: 5px;
-    width: 90vw;
-    margin-top: 10vw;
-    margin-bottom: 4vw;
-  }
 
 
 
@@ -62,6 +54,7 @@ hr.rounded {
     padding: 20px;
     padding-top: 12px;
     padding-bottom: 5px;
+    margin-bottom: 0vw;
     background-image: linear-gradient(rgba(250, 45, 96, .5), rgba(255, 163, 186, 0));
 }
 
@@ -212,11 +205,30 @@ hr.rounded {
 
 /* about section stuff */
 
+.aboveAbout-container {
+    position: absolute;
+    top: 15vw;
+    right: 30%;
+    width: 80%;
+    height: 65%;
+    z-index: -3;
+  }
+  
+.aboveAbout-container img {
+    width: 145%;
+    height: auto;
+    opacity: 100%;
+}
+
 .about {
-    padding: 0vw;
-    margin: 5vw;
-    border: 0px;
-    margin-bottom: 5vw;
+    padding: 5vw;
+    padding-bottom: 10vw;
+    margin: 0vw;
+    margin-top: 9vw;
+    width: 100%;
+    background-color: #fff6fc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .aboutLeft {
@@ -234,16 +246,17 @@ hr.rounded {
 }
 
 .aboutH2 {
-    font-size: 5vw;
+    font-size: 5.5vw;
     font-family: happyCamper;
     color: #970b41;
+    margin-top: 0vw;
     margin-bottom: 10px;
     margin-left: 0px;
     padding-top: 0vw;
 }
 
 .aboutP {
-    font-size: 25px;
+    font-size: 2vw;
     font-family: caveat;
     color: #b33c5e;
     margin-top: 2px;
