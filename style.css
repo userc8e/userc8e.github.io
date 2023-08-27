@@ -36,10 +36,11 @@
 
 body {
     background-size: cover;
-    background-color: #fff5f7;
+    /* background-color: #fff5f7;
     background-image: linear-gradient(#fff5f7, rgb(249, 215, 233));
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; */
+    background-color: #fff6fc;
     margin: 0px;
     overflow-x: clip;
 }
@@ -55,7 +56,7 @@ body {
     padding-top: 12px;
     padding-bottom: 5px;
     margin-bottom: 0vw;
-    background-image: linear-gradient(rgba(250, 45, 96, .5), rgba(255, 163, 186, 0));
+    background-image: linear-gradient(rgb(249, 43, 125,.5), rgba(255, 163, 186, 0));
 }
 
 .topnav a {
@@ -67,13 +68,13 @@ body {
 
 .navLogo {
     float: left;
-    color: #970b41;
+    color: #970b58;
 }
   
 .navItem {
     float: right;
     text-align: center;
-    color: #b33c5e;
+    color: #b33c77;
 }
 
 .navItem:hover {
@@ -96,6 +97,17 @@ body {
     margin: 0px;
     border: 0px;
     margin-bottom: 5vw;
+}
+
+.backhome-container {
+    background-color: #fff5f7;
+    background-image: linear-gradient(rgb(249, 210, 230), #fff5f7);
+    background-repeat: no-repeat;
+    width: 100%;
+    top: 0vw;
+    height: 80vw;
+    position: fixed;
+    z-index: -3;
 }
 
 .backleft-container {
@@ -171,7 +183,7 @@ body {
     letter-spacing: 15px;
 
     background-color: #fa2d60; /* fallback */
-    background-image: linear-gradient(#fa2d60, #ffa3ba);
+    background-image: linear-gradient(#fa2d7f, #ffa3ba);
     background-size: 100%;
     background-repeat: repeat;
     -webkit-background-clip: text;
@@ -193,7 +205,7 @@ body {
     margin-left: 2vw;
     margin-right: 2vw;
     border-radius: 50%;
-    box-shadow: 0px 0px 20px 1px #c982d9;
+    box-shadow: 0px 0px 20px 1px #d982cb;
 }
 
 .homeMe:hover {
@@ -241,7 +253,7 @@ body {
     object-fit: cover;
     width: 20vw;
     height: 20vw;
-    box-shadow: 0px 0px 20px 1px #c982d9;
+    box-shadow: 0px 0px 20px 1px #ac52b4;
     margin-right: 5vw;
     margin-left: 0vw;
 }
@@ -249,7 +261,7 @@ body {
 .aboutH2 {
     font-size: 5.5vw;
     font-family: happyCamper;
-    color: #970b41;
+    color: #970b58;
     margin-top: 0vw;
     margin-bottom: 10px;
     margin-left: 0px;
@@ -259,7 +271,7 @@ body {
 .aboutP {
     font-size: 2vw;
     font-family: caveat;
-    color: #b33c5e;
+    color: #b33c77;
     margin-top: 2px;
     margin-bottom: 2px;
 }
