@@ -333,7 +333,7 @@ body {
 @media (max-width: 669px) { /* ermmm its not perfect but it works ig */
     .backright-music {
         position: absolute;
-        top: 105vw;
+        top: 115vw;
         right: 0%;
         z-index: -1;
     }
