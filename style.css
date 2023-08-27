@@ -90,90 +90,6 @@ body {
 
 /* top of home page stuff idk what its called but im calling it home yeah yeah */
 
-/* background images */
-
-.home {
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
-    margin-bottom: 5vw;
-}
-
-.backhome-container {
-    background-color: #fff5f7;
-    background-image: linear-gradient(rgb(249, 210, 230), #fff5f7);
-    background-repeat: no-repeat;
-    width: 100%;
-    top: 0vw;
-    height: 80vw;
-    position: fixed;
-    z-index: -3;
-}
-
-.backleft-container {
-    position: absolute;
-    top: 13vw;
-    right: 10%;
-    width: 90%;
-    height: 80%;
-    z-index: -2;
-  }
-  
-.backleft-container img {
-    width: 35%;
-    height: auto;
-    opacity: 90%;
-}
-
-.left-container {
-    position: absolute;
-    top: 6vw;
-    right: 14%;
-    width: 90%;
-    height: 80%;
-    z-index: -1;
-  }
-  
-.left-container img {
-    width: 25%;
-    height: auto;
-    opacity: 90%;
-}
-  
-
-.right-container {
-    position: absolute;
-    top: 26vw;
-    left: 74%;
-    width: 25%;
-    height: 80%;
-    z-index: -1;
-  }
-  
-.right-container img {
-    width: 110%;
-    height: auto;
-    opacity: 90%;
-}
-
-.backright-container {
-    position: absolute;
-    top: 7vw;
-    left: 65%;
-    width: 25%;
-    height: 80%;
-    z-index: -2;
-  }
-  
-.backright-container img {
-    width: 145%;
-    height: auto;
-    opacity: 90%;
-}
-
-
-/* front stuff */
-
 .homeH1 {
     font-size: 20vw;
     font-family: happyCamper;
@@ -214,6 +130,87 @@ body {
 }
 
 
+/* background images for top */
+
+.home {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    margin-bottom: 5vw;
+}
+
+.backhome-container {
+    background-color: #fff5f7;
+    background-image: linear-gradient(rgb(249, 210, 230), #fff5f7);
+    background-repeat: no-repeat;
+    width: 100%;
+    top: 0vw;
+    position: absolute;
+    height: 80vw;
+    z-index: -3;
+}
+
+.backleft-container {
+    position: absolute;
+    top: 13vw;
+    right: 10%;
+    width: 90%;
+    height: 80%;
+    z-index: -2;
+  }
+  
+.backleft-container img {
+    width: 35%;
+    height: auto;
+    opacity: 90%;
+}
+
+.left-container {
+    position: absolute;
+    top: 6vw;
+    right: 14%;
+    width: 90%;
+    height: 80%;
+    z-index: -1;
+  }
+  
+.left-container img {
+    width: 25%;
+    height: auto;
+    opacity: 90%;
+}
+
+.right-container {
+    position: absolute;
+    top: 26vw;
+    left: 74%;
+    width: 25%;
+    height: 80%;
+    z-index: -1;
+  }
+  
+.right-container img {
+    width: 110%;
+    height: auto;
+    opacity: 90%;
+}
+
+.backright-container {
+    position: absolute;
+    top: 7vw;
+    left: 65%;
+    width: 25%;
+    height: 80%;
+    z-index: -2;
+  }
+  
+.backright-container img {
+    width: 145%;
+    height: auto;
+    opacity: 90%;
+}
+
+
 
 /* about section stuff */
 
@@ -237,6 +234,7 @@ body {
     padding-bottom: 10vw;
     margin: 0vw;
     margin-top: 9vw;
+    margin-bottom: 7vw;
     width: 100%;
     background-color: #fff6fc;
     background-repeat: no-repeat;
@@ -275,3 +273,75 @@ body {
     margin-top: 2px;
     margin-bottom: 2px;
 }
+
+
+
+/* music section stuff */
+
+.music {
+    margin: 5vw;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    width: 100%;
+}
+
+.musicH2 {
+    font-family: sunValley;
+    font-size: 7vw;
+    color: #970b58;
+    display: block;
+    text-align: center;
+    margin-bottom: 0vw;
+}
+
+.playlist {
+    box-shadow: 0px 0px 20px 1px #ac52b4;
+    margin: auto;
+    margin-top: 2vw;
+    display: block;
+}
+
+
+/* music background */
+
+.backleft-music {
+    position: absolute;
+    top: 85vw;
+    z-index: -1;
+}
+
+.backleft-music img {
+    width: 70%;
+    opacity: 90%;
+}
+
+@media (min-width: 700px) {
+    .backright-music {
+        position: absolute;
+        top: 87vw;
+        right: 0%;
+        z-index: -1;
+    }
+
+    .backright-music img {
+        width: 70vw;
+        height: auto;
+        opacity: 90%;
+    }
+}
+
+@media (max-width: 669px) { /* ermmm its not perfect but it works ig */
+    .backright-music {
+        position: absolute;
+        top: 105vw;
+        right: 0%;
+        z-index: -1;
+    }
+
+    .backright-music img {
+        width: 70vw;
+        height: auto;
+        opacity: 90%;
+    }
+}
+
