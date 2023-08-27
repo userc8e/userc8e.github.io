@@ -2,32 +2,32 @@
 
 @font-face {
     font-family: sunValley;
-    src: url(homePage/homeFonts/Sun\ Valley\ -\ Demo.ttf);
+    src: url(fonts/Sun\ Valley\ -\ Demo.ttf);
 }
 
 @font-face {
     font-family: lemonMilk;
-    src: url(homePage/homeFonts/LEMONMILK-Bold.otf);
+    src: url(fonts/LEMONMILK-Bold.otf);
 }
 
 @font-face {
     font-family: happyCamper;
-    src: url(homePage/homeFonts/Happy-Camper-Regular.ttf);
+    src: url(fonts/Happy-Camper-Regular.ttf);
 }
 
 @font-face {
     font-family: sunriseInternational;
-    src: url(homePage/homeFonts/Sunrise\ International\ Demo.otf);
+    src: url(fonts/Sunrise\ International\ Demo.otf);
 }
 
 @font-face {
     font-family: bellerose;
-    src: url(homePage/homeFonts/Bellerose.ttf);
+    src: url(fonts/Bellerose.ttf);
 }
 
 @font-face {
     font-family: caveat;
-    src: url(homePage/homeFonts/Caveat-VariableFont_wght.ttf);
+    src: url(fonts/Caveat-VariableFont_wght.ttf);
 }
 
 
@@ -57,22 +57,19 @@ body {
     padding-bottom: 5px;
     margin-bottom: 0vw;
     background-image: linear-gradient(rgb(249, 43, 125,.5), rgba(255, 163, 186, 0));
+    display: flex;
+    justify-content: space-between;
 }
 
-.topnav a {
+.navLogo {
+    color: #890f4c !important;
+}
+  
+.navItem {
     font-family: happyCamper;
     font-size: 3.5vw;
     padding: 1vw 3vw;
     text-decoration: none;
-}
-
-.navLogo {
-    float: left;
-    color: #970b58;
-}
-  
-.navItem {
-    float: right;
     text-align: center;
     color: #b33c77;
 }
@@ -81,11 +78,56 @@ body {
     text-decoration: underline #d487f6;
     cursor: pointer;
     transform: scale(1.1);
-    /* background-color: #fec9d6;
-    color: black;
-    border-radius: 100%; */
 }
 
+
+/* dropdown stuff */
+
+.dropdown {
+    overflow: hidden;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    margin-right: 2vw;
+}
+
+.dropdown .dropbtn {
+    border: none;
+    outline: none;
+    display: inline-flex;
+    background: transparent;
+    margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(185, 135, 246, 0.5);
+    width: 12vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    float: none;
+    font-family: caveat;
+    color: rgb(112, 30, 63);
+    font-size: 2.5vw;
+    padding: 1vw;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    z-index: 1;
+    min-width: 3vw;
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(164, 98, 222, 0.5);
+  }
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
 
 /* top of home page stuff idk what its called but im calling it home yeah yeah */
@@ -304,6 +346,7 @@ body {
     color: #b33c77;
     margin-top: 2px;
     margin-bottom: 2px;
+    padding-right: 3vw;
 }
 
 
