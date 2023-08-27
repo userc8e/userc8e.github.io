@@ -36,7 +36,7 @@
 
 body {
     background-size: cover;
-    background-color: #fff5f7; /* fallback */
+    background-color: #fff5f7;
     background-image: linear-gradient(#fff5f7, rgb(249, 215, 233));
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -229,6 +229,7 @@ body {
     background-color: #fff6fc;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    bottom: 0vw;
 }
 
 .aboutLeft {
