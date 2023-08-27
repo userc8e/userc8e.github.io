@@ -108,6 +108,10 @@ body {
     -moz-text-fill-color: transparent;
 }
 
+.homePicDiv {
+    position: relative;
+}
+
 .homePics {
     display: flex;
     justify-content: center;
@@ -121,12 +125,40 @@ body {
     margin-left: 2vw;
     margin-right: 2vw;
     border-radius: 50%;
-    box-shadow: 0px 0px 20px 1px #d982cb;
+    box-shadow: 0px 0px 20px 2px #d982cb;
+    -webkit-filter: brightness(110%);
 }
 
-.homeMe:hover {
+.homePicDiv:hover .homeMe {
     cursor: pointer;
     transform: scale(1.1);
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.homePicText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: caveat;
+    font-size: 3vw;
+    color: white;
+    /* display: none; */
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.homePicDiv:hover .homePicText {
+    /* display: inline; */
+    visibility: visible;
+    opacity: 1;
+    text-shadow: 0px 0px 12px rgb(255, 76, 136);
 }
 
 
@@ -251,7 +283,7 @@ body {
     object-fit: cover;
     width: 20vw;
     height: 20vw;
-    box-shadow: 0px 0px 20px 1px #ac52b4;
+    box-shadow: 0px 0px 20px 1px #e05495;
     margin-right: 5vw;
     margin-left: 0vw;
 }
@@ -267,7 +299,7 @@ body {
 }
 
 .aboutP {
-    font-size: 2vw;
+    font-size: 4vw;
     font-family: caveat;
     color: #b33c77;
     margin-top: 2px;
@@ -304,21 +336,21 @@ body {
 
 /* music background */
 
-.backleft-music {
-    position: absolute;
-    top: 85vw;
-    z-index: -1;
-}
-
-.backleft-music img {
-    width: 70%;
-    opacity: 90%;
-}
-
 @media (min-width: 700px) {
+    .backleft-music {
+        position: absolute;
+        top: 90vw;
+        z-index: -1;
+    }
+    
+    .backleft-music img {
+        width: 70%;
+        opacity: 90%;
+    }
+
     .backright-music {
         position: absolute;
-        top: 87vw;
+        top: 90vw;
         right: 0%;
         z-index: -1;
     }
@@ -331,6 +363,17 @@ body {
 }
 
 @media (max-width: 669px) { /* ermmm its not perfect but it works ig */
+    .backleft-music {
+        position: absolute;
+        top: 93vw;
+        z-index: -1;
+    }
+    
+    .backleft-music img {
+        width: 70%;
+        opacity: 90%;
+    }
+
     .backright-music {
         position: absolute;
         top: 115vw;
