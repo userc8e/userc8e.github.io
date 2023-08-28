@@ -1,0 +1,116 @@
+/* silly little font stuff */
+
+@font-face {
+    font-family: sunValley;
+    src: url(fonts/Sun\ Valley\ -\ Demo.ttf);
+}
+
+@font-face {
+    font-family: lemonMilk;
+    src: url(fonts/LEMONMILK-Bold.otf);
+}
+
+@font-face {
+    font-family: happyCamper;
+    src: url(fonts/Happy-Camper-Regular.ttf);
+}
+
+@font-face {
+    font-family: sunriseInternational;
+    src: url(fonts/Sunrise\ International\ Demo.otf);
+}
+
+@font-face {
+    font-family: bellerose;
+    src: url(fonts/Bellerose.ttf);
+}
+
+@font-face {
+    font-family: caveat;
+    src: url(fonts/Caveat-VariableFont_wght.ttf);
+}
+
+
+
+/* nav bar stuff */
+
+.topnav {
+    overflow: hidden;
+    margin: 0vw;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+    padding: 20px;
+    padding-top: 12px;
+    padding-bottom: 5px;
+    width: 100%;
+    background-image: linear-gradient(rgb(249, 43, 125,.5), rgba(255, 163, 186, 0));
+    display: flex;
+    justify-content: space-between;
+}
+
+.navLogo {
+    color: #890f4c !important;
+}
+  
+.navItem {
+    font-family: happyCamper;
+    font-size: 3.5vw;
+    padding: 1vw 3vw;
+    text-decoration: none;
+    text-align: center;
+    color: #b33c77;
+}
+
+.navItem:hover {
+    text-decoration: underline #d487f6;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+/* dropdown stuff */
+
+.dropdown {
+    overflow: hidden;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown .dropbtn {
+    border: none;
+    outline: none;
+    display: inline-flex;
+    background: transparent;
+    margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(185, 135, 246, 0.25);
+    width: 12vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    float: none;
+    font-family: caveat;
+    color: rgb(146, 39, 81);
+    font-size: 2.5vw;
+    padding: 1vw;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    z-index: 1;
+    min-width: 3vw;
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(164, 98, 222, 0.4);
+  }
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
