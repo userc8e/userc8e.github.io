@@ -32,6 +32,17 @@
 
 
 
+/* body */
+
+body {
+    margin: 0vw;
+    padding: 0vw;
+    width: 100%;
+    overflow-x: clip;
+}
+
+
+
 /* nav bar stuff */
 
 .topnav {
