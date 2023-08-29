@@ -50,7 +50,7 @@ body {
     margin: 0vw;
     margin-top: 0vw;
     margin-bottom: 0vw;
-    padding: 20px;
+    padding: 0px;
     padding-top: 12px;
     padding-bottom: 5px;
     width: 100%;
@@ -118,7 +118,7 @@ body {
     min-width: 3vw;
 }
 
-.dropdown-content a:hover {
+.dropdown-content a:active {
     background-color: rgba(164, 98, 222, 0.4);
   }
   
