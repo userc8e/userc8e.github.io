@@ -1,1 +1,1 @@
-$dirname = "galleryImages/";
+// $dirname = "galleryImages/";

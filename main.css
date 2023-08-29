@@ -118,10 +118,10 @@ body {
     min-width: 3vw;
 }
 
-.dropdown-content a:active {
+.dropdown-content a:hover {
     background-color: rgba(164, 98, 222, 0.4);
-  }
+}
   
-.dropdown:hover .dropdown-content {
+.dropdown:focus-within .dropdown-content {
     display: block;
 }
