@@ -122,6 +122,6 @@ body {
     background-color: rgba(164, 98, 222, 0.4);
 }
   
-.dropdown:focus-within .dropdown-content {
+.dropdown:hover .dropdown-content, .dropdown:focus-within .dropdown-content {
     display: block;
 }
