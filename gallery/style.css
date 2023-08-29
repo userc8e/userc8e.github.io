@@ -34,3 +34,12 @@ h1 {
     height: 25vw;
     margin: 1vw;
 }
+
+.art:active {
+    size: 25vw;
+    height: auto;
+}
+
+.crop-up {
+    object-position: 50% 15%;
+}
