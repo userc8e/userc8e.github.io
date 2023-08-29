@@ -44,7 +44,7 @@ body {
     margin-left: 2vw;
     margin-right: 2vw;
     border-radius: 50%;
-    box-shadow: 0px 0px 20px 2px #d761e4;
+    box-shadow: 0px 0px 1vw .1vw #d761e4;
     -webkit-filter: brightness(110%);
 }
 
