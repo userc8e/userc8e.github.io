@@ -23,7 +23,8 @@ h1 {
 
 .photos {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-content: space-evenly;
     flex-direction: row-reverse;
     flex-wrap: wrap-reverse;
 }
@@ -33,6 +34,8 @@ h1 {
     width: 25vw;
     height: 25vw;
     margin: 1vw;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .art:active {
