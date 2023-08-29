@@ -39,6 +39,19 @@ body {
     padding: 0vw;
     width: 100%;
     overflow-x: clip;
+
+	animation: fadeInAnimation ease 1.25s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 
@@ -77,6 +90,7 @@ body {
     cursor: pointer;
     transform: scale(1.1);
 }
+
 
 
 /* dropdown stuff */
@@ -124,4 +138,24 @@ body {
   
 .dropdown:hover .dropdown-content, .dropdown:focus-within .dropdown-content {
     display: block;
+}
+
+
+
+/* gradient h1 */
+
+.gradientH1 {
+    font-family: happyCamper;
+    text-align: center;
+    margin-top: 0;
+    margin: 1px;
+        
+    background-color: #fa2d60; /* fallback */
+    background-image: linear-gradient(#fa2d7f, #ffa3ba);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
 }

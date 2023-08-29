@@ -9,22 +9,9 @@ body {
 
 /* top of home page stuff idk what its called but im calling it home yeah yeah */
 
-.homeH1 {
+h1 {
     font-size: 20vw;
-    font-family: happyCamper;
-    text-align: center;
-    margin-top: 0;
-    margin: 1px;
     letter-spacing: 15px;
-
-    background-color: #fa2d60; /* fallback */
-    background-image: linear-gradient(#fa2d7f, #ffa3ba);
-    background-size: 100%;
-    background-repeat: repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
 }
 
 .homePicDiv {
