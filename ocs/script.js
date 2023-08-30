@@ -12,10 +12,13 @@ const infoFolder = document.querySelector(".infoFolder");
     and then it changes all the info inside that div
     including h2, paragraphs, and images maybe idk
     but! how does this work!! idk!!!!!!!
+
+    erm do i need to use classes bc idk how those work tee bee aych
 */
 
 mochaBtn.addEventListener("click", () => {
     infoFolder.style.backgroundColor = "#c0bff4";
+    mochaBtn.style.paddingBottom = "2vw"; //i wanna make it somehow overlap the infoFolder's border but just in that spot
 });
 
 mizukiBtn.addEventListener("click", () => {
@@ -29,3 +32,5 @@ karinBtn.addEventListener("click", () => {
 shouyaBtn.addEventListener("click", () => {
     infoFolder.style.backgroundColor = "#bdbdca";
 });
+
+// erm on second thought maybe ill just do this in css using that display:none to display:block thingy
