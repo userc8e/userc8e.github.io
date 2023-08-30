@@ -17,8 +17,8 @@ const infoFolder = document.querySelector(".infoFolder");
 */
 
 mochaBtn.addEventListener("click", () => {
+    mochaBtn.style.zIndex = "3";
     infoFolder.style.backgroundColor = "#c0bff4";
-    mochaBtn.style.paddingBottom = "2vw"; //i wanna make it somehow overlap the infoFolder's border but just in that spot
 });
 
 mizukiBtn.addEventListener("click", () => {
