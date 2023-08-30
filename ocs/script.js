@@ -4,6 +4,7 @@ const karinBtn = document.querySelector(".karinBtn");
 const shouyaBtn = document.querySelector(".shouyaBtn");
 
 const infoFolder = document.querySelector(".infoFolder");
+const dialog = document.querySelector(".dialog");
 
 
 /* how the button should work in theory?????
@@ -17,8 +18,8 @@ const infoFolder = document.querySelector(".infoFolder");
 */
 
 mochaBtn.addEventListener("click", () => {
-    mochaBtn.style.zIndex = "3";
     infoFolder.style.backgroundColor = "#c0bff4";
+    dialog.show();
 });
 
 mizukiBtn.addEventListener("click", () => {

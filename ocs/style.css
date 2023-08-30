@@ -1,6 +1,7 @@
 body {
     background-image: linear-gradient(rgb(249, 210, 230), #fff5f7);
     background-repeat: no-repeat;
+    height: 100%;
 }
 
 h1 {
@@ -9,8 +10,8 @@ h1 {
 }
 
 .folderThingy {
-    /* width: 90%;
-    margin: auto; */
+    width: 90%;
+    margin: auto;
     margin-top: 18px;
     left: 5vw;
     right: 5vw;
@@ -20,6 +21,7 @@ h1 {
     margin: 0;
     display: flex;
     justify-content: flex-start;
+    padding-left: 10px;
 }
 
 .charaTab {
@@ -27,13 +29,17 @@ h1 {
     font-size: 3.25vw;
     text-align: center;
     color: #970b58;
-    box-shadow: 0px -2px 1px 2px black;
-    border: 0;
+    border: 2px outset grey;
+    border-bottom: 0;
     width: 20vw;
     margin: 0;
     margin-right: 1vw;
     padding-top: .5vw;
     z-index: 1;
+}
+
+.charaTab:focus {
+    z-index: 3;
 }
 
 .mochaBtn {
@@ -55,12 +61,17 @@ h1 {
 .infoFolder {
     background-color: #edd2a6;
     box-shadow: 0px 0px 5px black;
+    position: relative;
+    margin: 0;
+    z-index: 2;
+}
+
+.dialog {
     font-family: caveat;
     font-size: 24px;
-    position: absolute;
-    margin: 0;
     padding: 2vw;
-    z-index: 2;
+    margin: 0;
+
 
     /* grid oh yeah yeah */
     display: grid;
@@ -83,16 +94,12 @@ h1 {
     aspect-ratio: 1 / 1;
 }
 
-.pfp {
-    grid-area: a;
+.about * {
+    display: inline;
 }
 
-.charaName {
-    grid-area: b;
-    font-family: happyCamper;
-    font-size: 4vw;
-    align-self: start;
-    margin-bottom: 5px;
+.pfp {
+    grid-area: a;
 }
 
 .about {
@@ -101,9 +108,16 @@ h1 {
     align-self: center;
 }
 
+.charaName {
+    font-family: happyCamper;
+    font-size: 4vw;
+    margin-bottom: 5px;
+    margin: 0;
+    display: block !important;
+}
+
 .interests {
     grid-area: c;
-    align-self: center;
 }
 
 .outfit {
@@ -117,3 +131,4 @@ h1 {
 .plot {
     grid-area: f;
 }
+
