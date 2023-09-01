@@ -58,20 +58,28 @@ h1 {
     background-color: #bdbdca;
 }
 
+
+
+/* folder thingies */
+
 .infoFolder {
     background-color: #edd2a6;
     box-shadow: 0px 0px 5px black;
+    min-height: 90vw;
     position: relative;
     margin: 0;
     z-index: 2;
+    margin-bottom: 3vw;
 }
 
-.dialog {
+.info {
+    visibility: hidden;
     font-family: caveat;
     font-size: 24px;
+    background-color: transparent;
+    border: 0;
     padding: 2vw;
     margin: 0;
-
 
     /* grid oh yeah yeah */
     display: grid;
@@ -94,10 +102,6 @@ h1 {
     aspect-ratio: 1 / 1;
 }
 
-.about * {
-    display: inline;
-}
-
 .pfp {
     grid-area: a;
 }
@@ -106,6 +110,10 @@ h1 {
     grid-area: b;
     font-family: caveat;
     align-self: center;
+}
+
+.about * {
+    display: inline;
 }
 
 .charaName {
@@ -118,6 +126,10 @@ h1 {
 
 .interests {
     grid-area: c;
+}
+
+.interests * {
+    display: inline;
 }
 
 .outfit {
