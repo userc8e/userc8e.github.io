@@ -19,7 +19,7 @@ section {
     width: 90%;
     margin: 10px auto 40px;
     border: 10px solid white;
-    box-shadow: 0px 0px 5px #970b58;
+    box-shadow: 0px 0px 5px #7d217a;
     background-color: #ffb5e0;
     background-repeat: no-repeat;
     padding: 10px;
@@ -55,13 +55,6 @@ h3 {
 }
 
 h4 {
-    font-size: 2.5vw;
-    display: inline;
-    margin: 0;
-    margin-left: 10px;
-}
-
-h5 {
     display: inline;
     font-size: 1.5vw;
     margin: 0;
@@ -90,6 +83,7 @@ img {
 h6 {
     font-size: 1.5vw;
     margin: 3px 0px;
-    border: 3px dotted #b12070;
+    border: 3px dotted #9d398e;
+    background-color: #fed2ff;
     text-align: center;
 }

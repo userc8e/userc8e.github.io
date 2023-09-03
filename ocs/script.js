@@ -1,25 +1,26 @@
 const infoFolder = document.querySelector(".infoFolder");
 const info = document.querySelector(".info");
 
+const mochaBtn = document.querySelector(".mochaBtn");
+const mizukiBtn = document.querySelector(".mizukiBtn");
+const karinBtn = document.querySelector(".karinBtn");
+const shouyaBtn = document.querySelector(".shouyaBtn");
+
 alert("this page is a work in progress !!");
 
-const mochaBtn = document.querySelector(".mochaBtn");
 mochaBtn.addEventListener("click", () => {
     infoFolder.style.backgroundColor = "#c0bff4";
     info.style.visibility = "visible";
 });
 
-const mizukiBtn = document.querySelector(".mizukiBtn");
 mizukiBtn.addEventListener("click", () => {
     infoFolder.style.backgroundColor = "#ffafbd";
 });
 
-const karinBtn = document.querySelector(".karinBtn");
 karinBtn.addEventListener("click", () => {
     infoFolder.style.backgroundColor = "#accdc9";
 });
 
-const shouyaBtn = document.querySelector(".shouyaBtn");
 shouyaBtn.addEventListener("click", () => {
     infoFolder.style.backgroundColor = "#bdbdca";
 });
