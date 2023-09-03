@@ -108,14 +108,13 @@ body {
     display: inline-flex;
     background: transparent;
     margin: 0; /* Important for vertical align on mobile phones */
-    justify-self: right;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: rgba(185, 135, 246, 0.6);
-    width: 12vw;
+    width: 15%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -128,9 +127,10 @@ body {
     padding: 1vw;
     text-decoration: none;
     display: block;
-    text-align: left;
+    text-align: center;
     z-index: 1;
-    min-width: 3vw;
+    /* min-width: 3vw; */
+    margin: auto;
 }
 
 .dropdown-content a:hover {
@@ -139,6 +139,7 @@ body {
   
 .dropdown:hover .dropdown-content, .dropdown:focus-within .dropdown-content {
     display: block;
+    margin-left: 30px;
 }
 
 
