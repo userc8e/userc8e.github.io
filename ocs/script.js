@@ -1,6 +1,8 @@
 const infoFolder = document.querySelector(".infoFolder");
 const info = document.querySelector(".info");
 
+alert("this page is a work in progress !!");
+
 const mochaBtn = document.querySelector(".mochaBtn");
 mochaBtn.addEventListener("click", () => {
     infoFolder.style.backgroundColor = "#c0bff4";

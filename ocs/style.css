@@ -9,6 +9,10 @@ h1 {
     letter-spacing: 10px;
 }
 
+* {
+    color: #970b58;
+}
+
 .folderThingy {
     width: 90%;
     margin: auto;
@@ -28,7 +32,6 @@ h1 {
     font-family: happyCamper;
     font-size: 3.25vw;
     text-align: center;
-    color: #970b58;
     border: 2px outset grey;
     border-bottom: 0;
     width: 20vw;
@@ -64,7 +67,7 @@ h1 {
 
 .infoFolder {
     background-color: #edd2a6;
-    box-shadow: 0px 0px 5px black;
+    box-shadow: 0px 0px 5px #970b58;
     min-height: 90vw;
     position: relative;
     margin: 0;
