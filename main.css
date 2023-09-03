@@ -108,6 +108,7 @@ body {
     display: inline-flex;
     background: transparent;
     margin: 0; /* Important for vertical align on mobile phones */
+    justify-self: right;
 }
 
 .dropdown-content {

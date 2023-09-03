@@ -6,6 +6,7 @@ const mizukiBtn = document.querySelector(".mizukiBtn");
 const karinBtn = document.querySelector(".karinBtn");
 const shouyaBtn = document.querySelector(".shouyaBtn");
 
+// i feel like this is probably the most inefficient way to do this but! shrug
 const charaName = document.querySelector(".charaName");
 const occupation = document.querySelector(".occupation");
 const age = document.querySelector(".age");
