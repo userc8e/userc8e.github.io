@@ -1,0 +1,16 @@
+body {
+    background-image: linear-gradient(rgb(249, 210, 230), #fff5f7);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+h1 {
+    font-size: 10vw;
+    letter-spacing: 10px;
+    margin-bottom: 9vw;
+}
+
+* {
+    color: #970b58;
+    font-family: caveat;
+}
