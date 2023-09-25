@@ -5,11 +5,12 @@
     <title> Caitlyn </title>
     <link href="main.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
 <body>
     <!-- woop woop nav bar -->
-    <nav class="topnav">
+    <!-- <nav class="topnav">
         <a class="navItem navLogo" tabindex="0" ontouchstart="" href="/"> Home </a>
         <a class="navItem" tabindex="0" ontouchstart="" href="/gallery"> Art </a>
         <a class="navItem" tabindex="0" ontouchstart="" href="/ducks"> Ducks </a>
@@ -22,7 +23,21 @@
                 <a href="/awards"> Awards </a>
             </div>
         </div>
-    </nav>
+    </nav> -->
+
+    <!--Navigation bar-->
+    <div id="nav-placeholder">
+
+    </div>
+
+    <script>
+    $(function(){
+    $("#nav-placeholder").load("nav.html");
+    });
+    </script>
+    <!--end of Navigation bar-->
+
+    <!-- <iframe src="nav.html" frameborder="0" width="100%"></iframe> -->
 
 
     <!-- the uhhhh home thing idk what to call it -->
@@ -117,7 +132,7 @@
             <div class="mySlides fade">
                 <div class="numbertext">2 / 5</div>
                 <img src="ducks/ducksImages/IMG_9409.PNG" style="width:100%">
-                <div class="text">Pumpkin Duck from Noah</div>
+                <div class="text">Pumpkin Duck from Noah Hinger</div>
             </div>
         
             <div class="mySlides fade">
