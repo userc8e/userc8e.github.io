@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: clip;
+    height: 100%;
 }
 
 
@@ -219,7 +220,7 @@ h1 {
 /* caitober pop up */
 
 .popup {
-    background-color: #f6d7c7;
+    background-color: rgba(246, 214, 198, 0.92);
     width: 600px;
     padding: 30px 40px;
     position: fixed;
@@ -238,7 +239,7 @@ h1 {
     width: 100%;
 }
 
-.popTop button {
+.closeAd {
     display: inline;
     float: right;
     margin: 0;
@@ -254,7 +255,7 @@ h1 {
     cursor: pointer;
 }
 
-.popTop h2 {
+.caitoberH2 {
     display: inline;
     font-family: happyCamper;
     color: #970b58;
@@ -272,7 +273,7 @@ h1 {
     margin-bottom: 1.5vw;
 }
 
-.popup .goCait {
+.caitoberButton {
     background: #c5491c;
     color: #f6d7c7;
     font-size: 2vw;
@@ -282,8 +283,38 @@ h1 {
     border: 0;
 }
 
-.popup button:hover {
+.caitoberButton:hover {
     background: #a5330a;
+}
+
+
+
+/* fixed footer after popup is closed */
+
+footer {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 5vw;
+    background-color: rgba(246, 214, 198, 0.92);
+    bottom: 0;
+    z-index: 3;
+    padding: auto;
+}
+
+footer * {
+    display: inline;
+    margin: 20px 20px;
+    background: none;
+    border: none;
+}
+
+footer h2 {
+   font-size: 3vw !important; 
+}
+
+footer #closeFooter {
+    margin: 8px;
 }
 
 

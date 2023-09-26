@@ -14,6 +14,13 @@
 
     </div>
 
+    <!-- if u press x on the popup, this appears at the bottom and is fixed -->
+    <footer class="adFooter">
+        <h2 class="caitoberH2"> limited time caitober page!! </h2>
+        <a href="/caitober"> <button class="caitoberButton"> go!! </button> </a>
+        <button id="closeFooter" class="closeAd">&times;</button>
+    </footer>
+
 
     
     <!-- the uhhhh home thing idk what to call it -->
@@ -78,13 +85,15 @@
     <!-- CAITOBER POP UP!! -->
     <div class="popup">
         <div class="popTop">
-            <h2> Happy Caitober! </h2>
-            <button id="close">&times;</button>
+            <h2 class="caitoberH2"> Happy Caitober! </h2>
+            <button id="closePop" class="closeAd">&times;</button>
         </div>
         
         <p id="popP"> check out the <b> caitober page </b> for some fun festivities! </p>
-        <a href="/caitober"> <button class="goCait"> go! </button> </a>
+        <a href="/caitober"> <button class="caitoberButton"> go!! </button> </a>
     </div>
+
+    
 
 
     <!-- music section lalala -->
@@ -163,22 +172,37 @@
     <!-- <script src="script.js" defer/> -->
     <!-- <script src="script.js" type="text/javascript"></script> -->
     <script>
+        
         $(function(){
             $("#nav-placeholder").load("nav.html");
         });
 
-        window.addEventListener("load", function(){
-            setTimeout(
-                function open(event){
-                    document.querySelector(".popup").style.display = "block";
-                    
-                },
-                1000
-            )
+        var clicked = 0;
+        window.addEventListener("scroll", function(){
+            if (clicked === 0) {
+                setTimeout(
+                    function open(event){
+                        document.querySelector(".popup").style.display = "block";
+                    },
+                    600
+                )
+            }
         });
 
-        document.querySelector("#close").addEventListener("click", function(){
+        document.querySelector("#closePop").addEventListener("click", function(){
+            clicked++;
             document.querySelector(".popup").style.display = "none";
+            setTimeout(
+                    function open(event){
+                        document.querySelector(".adFooter").style.display = "block";
+                    },
+                    300
+                )
+            
+        });
+
+        document.querySelector("#closeFooter").addEventListener("click", function(){
+            document.querySelector(".adFooter").style.display = "none";
         });
     </script>
 </body>

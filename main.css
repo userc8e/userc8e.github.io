@@ -39,6 +39,7 @@ body {
     padding: 0vw;
     width: 100%;
     overflow-x: clip;
+    height: 100%;
 
 	animation: fadeInAnimation ease 1.25s;
 	animation-iteration-count: 1;
