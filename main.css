@@ -54,6 +54,10 @@ body {
 	}
 }
 
+img {
+    object-fit: cover;
+}
+
 
 
 /* nav bar stuff */

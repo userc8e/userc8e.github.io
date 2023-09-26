@@ -219,7 +219,7 @@ h1 {
 /* music section stuff */
 
 .music {
-    margin-bottom: 13vw;
+    margin-bottom: 18vw;
     margin-left: 0vw;
     margin-right: 0vw;
     width: 100%;
@@ -316,7 +316,7 @@ h1 {
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 500px;
+    max-width: 30vw;
     position: relative;
     margin: auto;
   }
