@@ -9,20 +9,16 @@
 </head>
 
 <body>
+    
+
     <!--Navigation bar-->
     <div id="nav-placeholder">
 
     </div>
-
-    <!-- if u press x on the popup, this appears at the bottom and is fixed -->
-    <footer class="adFooter">
-        <h2 class="caitoberH2"> limited time caitober page!! </h2>
-        <a href="/caitober"> <button class="caitoberButton"> go!! </button> </a>
-        <button id="closeFooter" class="closeAd">&times;</button>
-    </footer>
+    <!-- <iframe src="nav.html" id="nav-placeholder" width="100%" style="border: 0; z-index: -5;"/> -->
 
 
-    
+
     <!-- the uhhhh home thing idk what to call it -->
     <section class="home">
         <h1 class="gradientH1"> CAITLYN </h1>
@@ -169,41 +165,11 @@
 
 
     <!-- Defer means js loads after all html loads, best practice -->
-    <!-- <script src="script.js" defer/> -->
-    <!-- <script src="script.js" type="text/javascript"></script> -->
     <script>
-        
         $(function(){
             $("#nav-placeholder").load("nav.html");
         });
-
-        var clicked = 0;
-        window.addEventListener("scroll", function(){
-            if (clicked === 0) {
-                setTimeout(
-                    function open(event){
-                        document.querySelector(".popup").style.display = "block";
-                    },
-                    600
-                )
-            }
-        });
-
-        document.querySelector("#closePop").addEventListener("click", function(){
-            clicked++;
-            document.querySelector(".popup").style.display = "none";
-            setTimeout(
-                    function open(event){
-                        document.querySelector(".adFooter").style.display = "block";
-                    },
-                    200
-                )
-            
-        });
-
-        document.querySelector("#closeFooter").addEventListener("click", function(){
-            document.querySelector(".adFooter").style.display = "none";
-        });
     </script>
+    <script src="script.js"></script>
 </body>
 </html>
