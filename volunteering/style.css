@@ -73,10 +73,12 @@ li {
     align-self: center;
 }
 
-img {
+img, iframe {
     object-fit: cover;
-    width: 100%;
-    justify-self: end;
+    width: 29vw;
+    height: 29vw;
+    margin: auto;
+    border: 0;
 }
 
 h6 {

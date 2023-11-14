@@ -207,7 +207,7 @@ h1 {
 }
 
 .aboutP {
-    font-size: 4vw;
+    font-size: 2.5vw;
     font-family: caveat;
     color: #b33c77;
     margin-top: 2px;
@@ -319,54 +319,57 @@ footer #closeFooter {
 
 
 
-/* music section stuff */
+/* resume section stuff */
 
-.music {
+.resume {
     margin-bottom: 18vw;
     margin-left: 0vw;
     margin-right: 0vw;
     width: 100%;
 }
 
-.musicH2 {
-    font-family: sunValley;
-    font-size: 7vw;
+.resumeH2 {
+    font-family: happyCamper;
+    font-size: 6.5vw;
     color: #970b58;
     display: block;
     text-align: center;
     margin-bottom: 0vw;
 }
 
-.playlist {
+.resumeDoc {
     box-shadow: 0px 0px 20px 1px #ac52b4;
     margin: auto;
+    width: 65vw;
+    height: 60vw;
     margin-top: 2vw;
     display: block;
+    border: 0;
 }
 
 
-/* music background */
+/* resume background */
 
 @media (min-width: 700px) {
-    .backleft-music {
+    .backleft-resume {
         position: absolute;
         top: 90vw;
         z-index: -1;
     }
     
-    .backleft-music img {
+    .backleft-resume img {
         width: 70%;
         opacity: 90%;
     }
 
-    .backright-music {
+    .backright-resume {
         position: absolute;
-        top: 90vw;
+        top: 135vw;
         right: 0%;
         z-index: -1;
     }
 
-    .backright-music img {
+    .backright-resume img {
         width: 70vw;
         height: auto;
         opacity: 90%;
@@ -374,25 +377,25 @@ footer #closeFooter {
 }
 
 @media (max-width: 669px) { /* ermmm its not perfect but it works ig */
-    .backleft-music {
+    .backleft-resume {
         position: absolute;
         top: 93vw;
         z-index: -1;
     }
     
-    .backleft-music img {
+    .backleft-resume img {
         width: 70%;
         opacity: 90%;
     }
 
-    .backright-music {
+    .backright-resume {
         position: absolute;
-        top: 120vw;
+        top: 138vw;
         right: 0%;
         z-index: -1;
     }
 
-    .backright-music img {
+    .backright-resume img {
         width: 70vw;
         height: auto;
         opacity: 90%;
@@ -465,7 +468,7 @@ footer #closeFooter {
     position: absolute;
     bottom: 8px;
     width: 100%;
-    text-align: center;
+    text-align: left;
   }
   
   /* Number text (1/3 etc) */
@@ -476,6 +479,7 @@ footer #closeFooter {
     padding: 8px 12px;
     position: absolute;
     top: 0;
+    right: 0;
   }
   
   /* The dots/bullets/indicators */

@@ -15,3 +15,15 @@ h1 {
     color: #970b58;
     font-family: caveat;
 }
+
+h2 {
+    font-family: happyCamper;
+    text-align: center;
+    font-size: 4vw;
+    margin-bottom: 1vw;
+}
+
+p {
+    font-size: 2vw;
+    text-align: center;
+}

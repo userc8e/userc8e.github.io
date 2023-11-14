@@ -8,6 +8,14 @@ h1 {
     letter-spacing: 10px;
 }
 
+p {
+    font-size: 2vw;
+    text-align: center;
+    font-family: caveat;
+    color: #970b58;
+    padding: 0 1vw;
+}
+
 section {
     display: flex;
     justify-content: space-evenly;
