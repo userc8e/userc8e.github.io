@@ -1,29 +1,10 @@
-body {
-    background-image: linear-gradient(rgb(249, 210, 230), #fff5f7);
-    background-repeat: no-repeat;
-    height: 100%;
-}
-
 h1 {
     font-size: 7.5vw;
     letter-spacing: 6px;
     line-height: .9;
-    margin-bottom: 9vw;
+    margin-bottom: 4vw !important;
 }
 
 * {
-    color: #970b58;
-    font-family: caveat;
-}
-
-h2 {
-    font-family: happyCamper;
-    text-align: center;
-    font-size: 4vw;
-    margin-bottom: 1vw;
-}
-
-p {
-    font-size: 2vw;
     text-align: center;
 }
