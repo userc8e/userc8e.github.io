@@ -4,6 +4,10 @@ h1 {
     margin-bottom: 9vw;
 }
 
+p {
+    text-align: center !important;
+}
+
 section {
     width: 90%;
     margin: 10px auto 40px;
@@ -54,7 +58,7 @@ li {
     align-self: center;
 }
 
-img, iframe {
+img, iframe, video {
     object-fit: cover;
     width: 29vw;
     height: 29vw;
