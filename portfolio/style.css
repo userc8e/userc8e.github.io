@@ -1,0 +1,30 @@
+h1 {
+    font-size: 10vw; 
+    letter-spacing: 10px;
+}
+
+p {
+    text-align: center;
+}
+
+.photos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+}
+
+.obj {
+    object-fit: cover;
+    height: 25vw;
+    margin: 1vw;
+}
+
+.obj:active {
+    size: 25vw;
+    height: auto;
+}
+
+.crop-up {
+    object-position: 50% 15%;
+}
